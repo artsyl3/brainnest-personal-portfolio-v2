@@ -28,7 +28,7 @@ const swiperElements = document.querySelectorAll(".swiper-item-wrap");
 const radioWrap = document.querySelector(".radio-wrap");
 const width = document.querySelector("#width");
 // adding radio buttons for how many elements we have
-for (let i = 1; i < swiperElements.length; i++) {
+for (let i = 0; i < swiperElements.length; i++) {
   const input = document.createElement("input");
   input.setAttribute("type", "radio");
   input.setAttribute("name", "radio");
