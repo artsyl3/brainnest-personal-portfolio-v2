@@ -1,7 +1,7 @@
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add("shooooow");
+      entry.target.classList.add("show");
     } else {
       entry.target.classList.remove("shoow");
     }
